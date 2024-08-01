@@ -17,6 +17,7 @@ public:
 	int getX();
 	int getY();
 	static double calcDistance(Position start, Position end);
+	friend std::ostream& operator<<(std::ostream& strm, Position pos);
 };
 
 #endif
